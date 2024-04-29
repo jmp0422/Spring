@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            background-color: rgb(53, 108, 129);
+            color: rgb(209, 245, 215);
+            border-radius: 100% 100%;
+        }
+
+        hr {
+            background: gray;
+            width: 900px;
+            height: 15px;
+        }
+
+        #center {
+            text-align: center;
+            padding: 1%;
+            border: 10px dashed rgb(59, 238, 238);
+        }
+
+        #fpage {
+            text-decoration: none;
+            background-color: rgb(20, 20, 78);
+            color: aliceblue;
+            border-radius: 10% 10%;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>친구가 되어주세요</h1>
+    <hr>
+    <div id="center">
+        <form>
+            <h3>당신을 알려주세요</h3>
+            이름 : <input type="text" name="name" placeholder="홍길동"> <br>
+            나이 : <input type="text" name="age"> <br>
+            성별 : <input type="radio" id="man" name="gender" value="man"><label for="man">남자</label>
+            <input type="radio" id="woman" name="gender" value="woman"><label for="woman">여자</label>
+            <br>
+            취미 : <input type="checkbox" id="sports" name="hobby" value="sports"><label for="sports">스포츠, 운동</label>
+            <input type="checkbox" id="youtube" name="hobby" value="youbute"><label for="youtube">동영상보기</label>
+            <input type="checkbox" id="internet" name="hobby" value="internet"><label for="internet">인터넷서핑</label>
+            <br>
+            커플유무 : <input type="radio" id="couple" value="couple"><label for="couple">커플</label>
+            <input type="radio" id="solo" value="solo"><label for="solo">솔로</label>
+            <input type="radio" id="ect" value="ect"><label for="ect">기타</label>
+            <br>
+            휴대전화번호 : <input type="number" name="number" placeholder="-없이 숫자로 이어서쓰세요.">
+            <br>
+            생년월일 :<input type="date"> <br>
+            코딩공부를 시작한 시기 : <input type="datetime-local">
+            <br>
+            하고 싶은 말 
+            <br>
+            <textarea name="word" cols="100" rows="10" placeholder="1000글자로 가까이로  써주세요ㅎ"></textarea>
+        </form>
+    </div>
+    <hr>
+    <div align="center" id="div1">
+        <a href="index.html" id="fpage">첫 페이지로</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02_java/m1_variable_operator/m1_variable_operator.iml" filepath="$PROJECT_DIR$/02_java/m1_variable_operator/m1_variable_operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_java/m2_control/m2_control.iml" filepath="$PROJECT_DIR$/02_java/m2_control/m2_control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_java/m3_array/m3_array.iml" filepath="$PROJECT_DIR$/02_java/m3_array/m3_array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_java/m4_object/src/m4_object.iml" filepath="$PROJECT_DIR$/02_java/m4_object/src/m4_object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_java/m4_object/m4_object1.iml" filepath="$PROJECT_DIR$/02_java/m4_object/m4_object1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_java/m5_constructor_static/m5_constructor_static.iml" filepath="$PROJECT_DIR$/02_java/m5_constructor_static/m5_constructor_static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_java/m6_inheritance_thread/m6_inheritance_thread.iml" filepath="$PROJECT_DIR$/02_java/m6_inheritance_thread/m6_inheritance_thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_java/m7_collection_casting/m7_collection_casting.iml" filepath="$PROJECT_DIR$/02_java/m7_collection_casting/m7_collection_casting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/multi.iml" filepath="$PROJECT_DIR$/.idea/multi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_java/untitled/untitled.iml" filepath="$PROJECT_DIR$/02_java/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>

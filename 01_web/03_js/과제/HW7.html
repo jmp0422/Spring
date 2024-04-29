@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let now = prompt("지금은 오전인가요? 오후인가요?")
+        if (now == "오전") {
+            for (i = 0; i < 3; i++) {
+                document.write("굿모닝!" + "<br>")
+            }
+        } else if (now == "오후") {
+            for (i = 0; i < 5; i++) {
+                document.write("굿에프터눈!" + "<br>")
+            }
+        } else {
+            for (i = 0; i < 10; i++) {
+                document.write("굿나잇!" + "<br>")
+            }
+        }
+    </script>
+</body>
+
+</html>

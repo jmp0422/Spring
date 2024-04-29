@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>헬스 카페 가입화면</h1>
+    <img src="img/health.png"><br>
+    <hr>
+    <form method="post">
+        성함 <input type="text">
+        닉네임 <input type="text">
+        목표감량 <input type="text"><br>
+        <hr>
+
+        <label>운동을 주로하는 장소 : </label>
+        <input type="radio" id="park" name="place" value="park">
+        <label for="park">공원</label>
+        <input type="radio" id="gym" name="place" value="gym">
+        <label for="gym">헬스장</label>
+        <input type="radio" id="home" name="place" value="home">
+        <label for="home">집</label>
+        <input type="radio" id="ect" name="place" value="ect">
+        <label for="ect">기타</label><br>
+        <hr>
+
+
+        <label> 선호하는 운동복 색깔 :</label>
+        <input type="checkbox" id="red" name="red" value="red">
+        <label for="red">빨강</label>
+        <input type="checkbox" id="black" name="black" value="black">
+        <label for="black">검정</label>
+        <input type="checkbox" id="yellow" name="yellow" value="yellow">
+        <label for="yellow">노랑</label>
+        <hr>
+
+        <input type="submit" value="제출">
+    </form>
+    <hr>
+    <h3> 헬스 카페 가맹 헬스장 목록</h3>
+    <ul type="circle">
+        <li>강남지점</li>
+        <li>강북지점</li>
+        <li>부산지점</li>
+        <li>여수지점</li>
+        <li>광주지점</li>
+        <li>제주도지점</li>
+    </ul>
+</body>
+
+</html>

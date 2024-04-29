@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="site.css">
+    <title>Document</title>
+        <style>
+        #a1{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#b1").click(function () {
+                $("#d1").append("<img src=img/001.png>" + "<br>")
+            })
+            $("#b2").click(function () {
+                com1 = $("#com1").val()
+                $("#d1").append(com1 + "<br>")
+            })
+            $("#b3").click(function () {
+                com2 = $("#com2").val()
+                $("#d1").append(com2 + "<br>" + "<img src=img/favicon.png>" + "<br>")
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="fpageR">
+        <a href="index.html" id="a1">처음으로</a></div>
+    <button id="b1">이미지 추가</button><br>
+
+    댓글1: <input type="text" id="com1">
+    <button id="b2">댓글추가</button><br>
+
+    댓글2: <input type="text" id="com2">
+    <button id="b3">이미지 + 댓글추가</button><br>
+
+    <hr>
+    <div id="d1"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+confirm -> yes or no
+prompt -> 작성자가 작성
+location.href = >>함수가아니기때문에 ()가 아니라 =으로가야댐
+<script src> -> 외부파일연결
+alert 알림창
+document.write
+console.log()
+function fight()
+parseInt()
+-지역변수(전역변수는 앞에 안씀)
+var 재선언 재할당
+let 재선언x 재할당 ->권장
+const 재선언x 재할당x ->상수(대문자로쓰기)
+
+https://jqueryui.com/dialog/
