@@ -7,7 +7,7 @@
 	<name>basic</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
-	<properties>
+	<properties> <!-- 자바버전에 따른 초기설정 -->
 		<java-version>11</java-version>
 		<org.springframework-version>5.2.9.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.9.6</org.aspectj-version>
@@ -138,8 +138,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.5.1</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>11</source> <!-- 자바버전 -->
+                    <target>11</target> <!-- 자바버전 -->
                     <compilerArgument>-Xlint:all</compilerArgument>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>
