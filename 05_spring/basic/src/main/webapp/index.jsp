@@ -8,7 +8,7 @@
 </head>
 <body>
 	<ol>
-	
+			<!-- 확인 웹 서블릿을 사용했을때 언급하는 링크이름이 href다 -->
 		<li><a href="home">HOME</a></li>
 		<li><a href="dependency">IOC & DI</a></li>
 		<li><a href="xmlDI">XML DI 사용하기</a></li>
