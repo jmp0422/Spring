@@ -24,6 +24,10 @@ public interface MemberService {
 
 	MemberDTO selectMember(String id) throws Exception;
 
+
+
+	MemberDTO loginMember(MemberDTO memberDTO) throws Exception;
+
 	
 
 }

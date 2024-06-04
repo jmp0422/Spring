@@ -33,13 +33,13 @@
 		delete from member where id = #{id} 
 	</delete>
 	<select id="loginMember" parameterType="memberDTO" resultType="memberDTO">
-		<!--  암호화 전 -->
+		<!--  암호화 전
 		select * from member 
-		where id = #{id} and pw = #{pw}
+		where id = #{id} and pw = #{pw}-->
 		
-		<!-- 암호화 후  select * from memberwhere user_id=#{userId}  and status='Y' 예외테스트
+		<!-- 암호화 후  select * from memberwhere user_id=#{userId}  and status='Y' 예외테스트-->
 		select * from member 
-		where user_id=#{userId}  and status='Y'-->
+		where id = #{id}
 	</select>
 </mapper>
 
