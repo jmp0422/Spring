@@ -1,43 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="boardMapper">
-	<insert id="insertBoard" parameterType="boardDTO"  
-	useGeneratedKeys="true"
-    keyProperty="title">
-		insert into board (no, title, content, writer)
+	<insert id="insertBoard" parameterType="boardDTO"
+		useGeneratedKeys="true" keyProperty="title">
+		insert into board (no, title,
+		content, writer)
 		values (#{no}, #{title}, #{content}, #{writer})
 	</insert>
-<!-- 	<update id="updateMember" parameterType="memberDTO">
-		update member 
-		set tel = #{tel}
-		where id = #{id}
-	</update> -->
-	<select id="selectBoard" parameterType="String" resultType="boardDTO">
+	<!-- <update id="updateMember" parameterType="memberDTO"> update member 
+		set tel = #{tel} where id = #{id} </update> -->
+	<select id="selectBoard" parameterType="String"
+		resultType="boardDTO">
 		select * from board
 		where title = #{title}
 	</select>
-<!-- 	<select id="count" parameterType="String" resultType="int">
-		select count(id) from member
-		where name = ${name}
-	</select> -->
+	<!-- <select id="count" parameterType="String" resultType="int"> select 
+		count(id) from member where name = ${name} </select> -->
 	<select id="selectBoardList" resultType="boardDTO">
-		select * from board 
+		select * from board
 	</select>
-	
-		<!-- 	update member
-		set status='N'
-		where user_id=#{userId}-->
-		
-<!-- 	<delete id="deleteMember" parameterType="String"> 
-		delete from member where id = #{id} 
-	</delete>
-	<select id="loginMember" parameterType="memberDTO" resultType="memberDTO">
-		 암호화 전
-		select * from member 
-		where id = #{id} and pw = #{pw}
-		
 
-	</select> -->
+	<!-- update member set status='N' where user_id=#{userId} -->
+
+	<!-- <delete id="deleteMember" parameterType="String"> delete from member 
+		where id = #{id} </delete> <select id="loginMember" parameterType="memberDTO" 
+		resultType="memberDTO"> 암호화 전 select * from member where id = #{id} and pw 
+		= #{pw} </select> -->
 </mapper>
 
 

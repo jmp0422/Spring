@@ -36,6 +36,10 @@
 <a href="delete?id=1">1번 북마크 삭제</a><br>
 <a href="delete?id=2">2번 북마크 삭제</a><br>
 <a href="delete?id=3">3번 북마크 삭제</a><br>
+<form action="delete">
+id : <input name="id"> <br>
+<button  class="btn btn-danger">서버로 전송</button>
+</form>
 
 <hr> 
 <h3>북마크 글쓰기</h3>
