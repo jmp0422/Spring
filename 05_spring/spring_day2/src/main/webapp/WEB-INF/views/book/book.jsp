@@ -49,6 +49,6 @@ id : <input name="id"> <br>
 	img : <input name="img"> <br>
 	<button  class="btn btn-danger">서버로 전송</button>
 </form>
-<hr> 
+<hr>       
 </body>
 </html>

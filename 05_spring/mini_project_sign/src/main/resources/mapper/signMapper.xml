@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="signMapper">
+	<insert id="insertSign" parameterType="signDTO"  
+	useGeneratedKeys="true"
+    keyProperty="sign_id">
+		insert into sign values (null, 
+		#{name}, #{birth}, #{img})
+	</insert>
+
+
+
+	<select id="selectSign" parameterType="String" resultType="signDTO">
+		select * from sign
+		where name = #{name} and birth = #{birth} 
+	</select>
+
+
+	
+	<select id="selectList" resultType="signDTO">
+		select * from sign 
+	</select>
+
+
+	
+		
+	<delete id="deleteSign" parameterType="String"> 
+		delete from sign 
+		where name = #{name} and birth = #{birth} 
+	</delete>
+	
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
