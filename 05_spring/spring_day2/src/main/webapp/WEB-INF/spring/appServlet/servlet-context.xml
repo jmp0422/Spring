@@ -23,6 +23,24 @@
 	
 	<context:component-scan base-package="com.multi.spring" />
 	
+	<interceptors>
+		<interceptor>
+			<mapping path="/**"/>
+			<beans:bean id = "testInterceptor" class="com.multi.spring.common.interceptor.TestInterceptor"/>
+		</interceptor>
+	
+		<interceptor>
+			<mapping path="/member/login"/>
+			<beans:bean id = "loginInterceptor" class="com.multi.spring.common.interceptor.LoginInterceptor"/>
+		</interceptor>
+		
+		<interceptor>
+			<mapping path="/board/bbs_list"/>
+			<beans:bean id = "bListInterceptor" class="com.multi.spring.common.interceptor.BListInterceptor"/>
+		</interceptor>
+	
+	</interceptors>
+	
 	
 	
 </beans:beans>

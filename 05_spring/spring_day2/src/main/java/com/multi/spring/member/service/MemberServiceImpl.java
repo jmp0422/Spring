@@ -53,6 +53,8 @@ public class MemberServiceImpl implements MemberService {
 	@Override
 	public void updateMember(MemberDTO memberDTO) throws Exception {
 		int result = memberDAO.updateMember(sqlSession, memberDTO);
+		memberDAO.insertMember(sqlSession, memberDTO);
+		//일부러에러
 		if (result < 0) {
 			throw new Exception("회원수정에 실패 하셨습니다");
 		}
