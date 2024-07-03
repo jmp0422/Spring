@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d776eab-edee-44e0-b539-f4d1e24a8414" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../../02_java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_java/자바 프로젝트설정/자바 프로젝트 설정.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_java/자바 프로젝트설정/자바 프로젝트 설정.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp01/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp01/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp02/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_servletjsp/itj/jsp02/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../basic/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic2/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../basic2/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic3/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../basic3/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic4/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../basic4/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_day1/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_day1/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_day2/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_day2/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_day3/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_day3/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_day4/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_day4/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_day5/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_day5/target/m2e-wtp/web-resources/META-INF/maven/com.multi/spring/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2hleenPJfdRpZOJiQktza10j1eS" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "H:/workspace/multi/05_spring/mini_project_sign"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="6d776eab-edee-44e0-b539-f4d1e24a8414" name="변경" comment="" />
+      <created>1718173189136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718173189136</updated>
+    </task>
+    <servers />
+  </component>
+</project>
